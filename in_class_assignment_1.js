@@ -25,3 +25,16 @@ if (score >= 60) {
 for (let i = 10; i >= 1; i--) {
     console.log(i);
 };
+
+//Task 4
+let count = 2;
+while (count <= 10) {
+    console.log(count);
+    count += 2;
+}
+
+//Task 5
+function calculateSquare(num) {
+    return num * num;
+}
+console.log(calculateSquare(4));
